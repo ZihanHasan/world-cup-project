@@ -58,35 +58,12 @@ main {
     color: rgb(3, 3, 75);
 }
 
-/* .banner-img2 img {
-    width: 468px;
-} */
+
 
 .banner-img img {
     width: 529px;
 }
 
-/* .ball {
-    position: absolute;
-    width: 165px;
-    opacity: .84;
-    top: 150px;
-    left: 510px;
-}
-
-.ball {
-    animation: ball 1.5s linear infinite;
-}
-
-@keyframes ball {
-    0% {
-        
-    transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-} */
 
 /* ----blog section style---- */
 .blog-container {
@@ -94,11 +71,6 @@ main {
     display: flex;
     gap: 20px;
 }
-/* .match-container {
-    margin: 100px 0 100px 0;
-    display: flex;
-    gap: 20px;
-} */
 
 .side-manu {
     width: 312px;
@@ -121,7 +93,7 @@ main {
 }
 .manu-btn a {
     font-size: 22px;
-    /* display: block; */
+    display: block;
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -274,67 +246,7 @@ footer ul:nth-child(4) li a {
     color: antiquewhite;
 }
 
-/* -------------------------------
-    style for match.html file 
-   ------------------------------- */
 
-/* top banner style */
-/* .top-banner-match {
-    background: #084561;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 550px;
-    border-radius: 30px;
-    padding: 20px 50px 0 50px;
-}
-
-.match-banner-btn {
-    background: #df083e;
-}
-
-.match-banner-btn:hover {
-    background: #d6063a;
-    box-shadow: 0px 2px 8px #79013d;
-}
-
-.ball2 {
-    position: absolute;
-    width: 100px;
-    left: 1145px;
-    top: 515px;
-}
-
-.ball2 {
-    animation: ball 1.5s linear infinite;
-} */
-
-/* -----Match style---- */
-
-
-/*------- matchs ------- */
-/* .match-manu-color{
-    background: #084561;
-}
-
-.match-active-btn {
-    background: #df083e;
-} */
-
-/* .matchs {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-} */
-
-/* .match {
-    width: 250px;
-    height: 150px;
-    border: 1px solid #dbdbdb;
-    border-radius: 11px;
-    padding: 30px 15px 30px 15px;
-} */
 
 .team {
     display: flex;
@@ -363,17 +275,17 @@ footer ul:nth-child(4) li a {
 }
 
 /* --------footer style -------- */
-.match-footer {
+/* .match-footer {
     background-color: rgb(2, 2, 32);
 }
 
 .match-footer ul:nth-child(4) li a {
     color: antiquewhite;
-}
+} */
 
 
 /*------------------------------------------
-   Responsive design for X-Small device(index.html) 
+   Responsive design for X-Small device 
 ------------------------------------------ */
 @media screen and (max-width:576px) {
     .top-banner {
@@ -461,7 +373,7 @@ footer ul:nth-child(4) li a {
 }
 
 /*------------------------------------------
-   Responsive design for Small device(index.html) 
+   Responsive design for Small device
 ------------------------------------------ */
 @media screen and (min-width:577px) and (max-width: 768px) {
     .top-banner {
@@ -551,7 +463,7 @@ footer ul:nth-child(4) li a {
 
 
 /*------------------------------------------
-   Responsive design for Medium device(index.html) 
+   Responsive design for Medium device
 ------------------------------------------ */
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .top-banner {
